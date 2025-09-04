@@ -54,7 +54,7 @@ while opcion != 5:
                         print("🔙 Volviendo al menú Filtrado...")
                         break  # Sale al Menú Filtrado
                     else:
-                        print("⚠️ Opción no válida, intente de nuevo.")
+                        break  # Sale del programa
 
             elif sub == 2:
                 print("Filtrar por rango de población")

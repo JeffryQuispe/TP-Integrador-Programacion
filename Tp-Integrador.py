@@ -1,5 +1,4 @@
 import csv
-
 # ------- Menú Principal -------- #
 opcion = 0
 while opcion != 5:
@@ -9,7 +8,6 @@ while opcion != 5:
     3 - Ordenado de Países
     4 - Estadísticas
     5 - Salir""")
-    
     # Validar entrada del usuario
     try:
         opcion = int(input("Ingrese una opción: "))
@@ -19,8 +17,20 @@ while opcion != 5:
     
     # ------- Llamadas a funciones ------- #
     if opcion == 1:
-        print("🔍 Buscar país (aquí iría la función)")
-    
+        buscar = input("Ingrese el nombre del país que desea buscar: ").strip().lower()
+
+        with open('Paises.csv', newline='', encoding='utf-8') as archivo:
+            lector = csv.reader(archivo)
+            encontrado = False  # bandera
+            for fila in lector:
+                nombre_pais = fila[0].strip().lower()  # limpia espacios
+                if buscar == nombre_pais:
+                    print(f"País encontrado: {fila}")
+                    encontrado = True
+                    break  # sale del for si lo encontró
+            if not encontrado:
+                print("País no encontrado")
+
     elif opcion == 2:
         sub = 0
         while sub != 4:
@@ -54,7 +64,7 @@ while opcion != 5:
                         print("🔙 Volviendo al menú Filtrado...")
                         break  # Sale al Menú Filtrado
                     else:
-                        break  # Sale del programa
+                        break  # Sale del programa1
 
             elif sub == 2:
                 print("Filtrar por rango de población")

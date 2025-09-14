@@ -104,7 +104,7 @@ def ordenar_paises(columna, descendente=False):
         encabezado = next(leer)
         datos = list(leer)
 
-    if columna in [1, 2]:  # población o superficie → convertir a int
+    if columna in [1, 2]:
         datos.sort(key=lambda x: int(x[columna]), reverse=descendente)
     else:  # nombre
         datos.sort(key=lambda x: x[columna].lower(), reverse=descendente)
@@ -132,7 +132,7 @@ def menu_principal():
 
         # --- Buscar país ---
         if opcion == 1:
-            buscar = input("Nombre de País (prefijo): ")
+            buscar = input("Nombre de País: ")
             resultado = buscar_pais(buscar)
             if resultado:
                 print("\n✅ Coincidencias:")

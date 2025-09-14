@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcea8a3-a0b8-44d4-8c63-836c687e9619" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paises.csv" beforeDir="false" afterPath="$PROJECT_DIR$/paises.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tp-Integrador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tp-Integrador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757731119097</updated>
       <workItem from="1757731120377" duration="15000" />
-      <workItem from="1757821709076" duration="6625000" />
+      <workItem from="1757821709076" duration="6932000" />
     </task>
     <servers />
   </component>

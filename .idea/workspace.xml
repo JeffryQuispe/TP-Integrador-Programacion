@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757731119097</updated>
       <workItem from="1757731120377" duration="15000" />
-      <workItem from="1757821709076" duration="3958000" />
+      <workItem from="1757821709076" duration="6625000" />
     </task>
     <servers />
   </component>
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP_Integrador_Programacion$Tp_Integrador.coverage" NAME="Tp-Integrador Coverage Results" MODIFIED="1757860864008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP_Integrador_Programacion$Tp_Integrador.coverage" NAME="Tp-Integrador Coverage Results" MODIFIED="1757873764222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

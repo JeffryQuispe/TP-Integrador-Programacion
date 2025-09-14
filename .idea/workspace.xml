@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8dcea8a3-a0b8-44d4-8c63-836c687e9619" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Paises.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Paises.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tp-Integrador.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tp-Integrador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1757731119097</updated>
       <workItem from="1757731120377" duration="15000" />
-      <workItem from="1757821709076" duration="3243000" />
+      <workItem from="1757821709076" duration="3958000" />
     </task>
     <servers />
   </component>
@@ -77,6 +77,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TP_Integrador_Programacion$Tp_Integrador.coverage" NAME="Tp-Integrador Coverage Results" MODIFIED="1757859830163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TP_Integrador_Programacion$Tp_Integrador.coverage" NAME="Tp-Integrador Coverage Results" MODIFIED="1757860864008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

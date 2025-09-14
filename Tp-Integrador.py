@@ -11,14 +11,17 @@ with open("paises.csv", newline='', encoding="utf-8-sig") as archivo:  # 👈 cl
 
 #------ Buscar ------------------#
 
-def buscar_pais (nombre):
-    with open("paises.csv", newline='', encoding="utf-8-sig") as archivo:
+import csv
+
+def buscar_pais(prefijo):
+    with open("Paises.csv", newline='', encoding="utf-8-sig") as archivo:
         leer = csv.reader(archivo)
-        next(leer) #salta la fila
+        next(leer)  # salta encabezado
+        encontrados = []
         for fila in leer:
-            if fila[0].lower() == nombre:
-                return True
-        return False
+            if fila[0].lower().startswith(prefijo.lower().strip()):
+                encontrados.append(fila[0])
+        return encontrados
 
 #-------- Filtrado Paises  -------#
 def continentes (continente):
@@ -92,12 +95,15 @@ def menu_princial ():
             print("Opcion no valida")
             continue
         if opcion == 1:
-            buscar = input("Nombre de Pais: ")
-            resultado  = buscar_pais(buscar)
-            if resultado:
-                print(f"✅ Tu Pais fue encontrado :  {buscar}")
+            buscar = input("Nombre de País (prefijo): ")
+            resultado = buscar_pais(buscar)
+            if resultado:  # la lista no está vacía
+                print("✅ Coincidencias:")
+                for pais in resultado:
+                    print(" -", pais)
             else:
-                print("⚠️Tu Pais no encontrado")
+                print(f"⚠️ No se encontraron países que empiecen con: {buscar!r}")
+
         if opcion == 2:
             sub_menu = 0
             while sub_menu != 4:

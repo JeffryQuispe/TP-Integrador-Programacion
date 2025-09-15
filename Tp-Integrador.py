@@ -220,5 +220,6 @@ def menu_principal():
                     promedio_superficie()
                 elif sub == 4:
                     contar_por_continente()
-
+    else:
+        print("GRACIAS POR VENIR..... NOS VEMOS PRONTO")
 menu_principal()

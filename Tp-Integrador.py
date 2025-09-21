@@ -105,9 +105,9 @@ def ordenar_paises(columna, descendente=False):
         datos = list(leer)
 
     if columna in [1, 2]:
-        datos.sort(key=lambda x: int(x[columna]), reverse=descendente)
+        datos.sort(key=lambda x: int(x[columna]),reverse=descendente) 
     else:  # nombre
-        datos.sort(key=lambda x: x[columna].lower(), reverse=descendente)
+        datos.sort(key=lambda x: x[columna].lower(),reverse=descendente)
 
     print(f"{'Nombre':15} | {'Población':>12} | {'Superficie':>12} | {'Continente'}")
     print("-" * 60)
@@ -193,9 +193,11 @@ def menu_principal():
                 except ValueError:
                     print("❌ Solo números")
                     continue
-                if sub in [1, 2, 3]:
+                if sub in [3]:
                     desc = input("Orden descendente? (s/n): ").lower() == "s"
-                    ordenar_paises(sub-1, desc)
+                    ordenar_paises(sub-1,desc)
+                elif sub in [1, 2]:
+                    ordenar_paises(sub-1)
 
         # --- Estadísticas ---
         elif opcion == 4:

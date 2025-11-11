@@ -1,5 +1,5 @@
-﻿Nombre,poblacion,Superficie,Continente
-Argentina,45376763,2780400,América
+﻿Nombre,Poblacion,Superficie,Continente
+Argentina,3000000,2500000,América
 Brasil,213993437,8515767,América
 Colombia,50882891,1141748,América
 Chile,19116209,756102,América
@@ -28,4 +28,4 @@ Australia,26839859,7692024,Oceania
 Papúa Nueva Guinea,10610000,462840,Oceania
 Nueva Zelanda,5228100,268021,Oceania
 Fiyi,936375,18274,Oceania
-Islas Salomón,740424,28896,Oceania
+Islas Salomón,740424,28896,OceaniaCanada,1051231,1123123,100123
